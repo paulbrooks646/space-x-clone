@@ -1,0 +1,140 @@
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+}
+.navbar {
+    background-color: black;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#logo {
+    margin-left: 20px;
+}
+.list1 {
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.list2 {
+    color: gray;
+    font-size: 15px;
+    margin-left: 10px;
+}
+#falcon9 {
+    margin-left: 0px;
+}
+#updates {
+    margin-left: 50px;
+}
+.navbarlist {
+    display: flex;
+    justify-content: space-evenly;
+    height: 65px;
+    background-color: gray;
+    font-size: 12px;
+    align-items: center;
+    margin-top: -70px;
+    z-index: 2;
+}
+img{
+    z-index: 1;
+}
+.navbar2 {
+    color: white;
+}
+.label {
+    color: lightgray;
+    font-size: 12px;
+   
+    position: relative; 
+top: 15px;
+left: 20px;
+}
+.label2 {
+    position: relative;
+    font-size: 12px;
+    top: -8px;
+    left: 40px;
+}
+.navbar3 {
+background-color: black;
+}
+.container1 {
+    border: 1px solid black;
+    width: 33vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.subheading {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 150px;
+}
+.pictures {
+    display: flex;
+    justify-content: space-around;
+}
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 15px;
+    width: 30vw;
+    border: 1px solid lightgray;
+    height: 250px;
+    box-shadow: 1px 1px 3px 1px lightgray;
+    
+}
+
+h4 {
+    margin-top: 15px;
+    color: black;
+}
+#h52 {
+    margin-top: 60px;
+}
+#h53 {
+    margin-top: 60px;
+}
+footer {
+margin-top: 350px;
+margin-bottom: 10px;
+
+}
+.navbar3 {
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    height: 70px;
+
+}
+h5 {
+    color: black;
+}
+p {
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    right: -5px;
+}
+.list3 {
+    color: white;
+    font-size: 12px;  
+}
+#rocket {
+    width: 100vw;
+}
